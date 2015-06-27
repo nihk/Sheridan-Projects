@@ -1,0 +1,198 @@
+*::selection {
+  background: #FFD393;
+}
+
+@font-face {
+    font-family: Courgette-Regular;
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #9C9B7A;
+	font-family: Courgette-Regular;
+}
+h1 {
+	text-align: center;
+	color: #405952;
+}
+h3, h4 {
+	position: absolute;
+	top: 165px;
+	left: 60px;
+	color: #405952;
+}
+.subtitle1 {
+	top: 65px;
+	left: 60px;
+	color: #405952;
+}
+.subtitle2 {
+	top: 95px;
+	left: 60px;
+}
+.subtitle3 {
+	top: 135px;
+	left: 60px;
+}
+h4 {
+	font-family: Raleway-Medium;
+	top: 190px;
+	color: #F54F29;
+}
+form {
+	margin-left: 20px;
+}
+.arrow {
+	position: relative;
+	top: 11px;
+}
+.signout, .signoutText {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.signoutText {
+	top: 30px;
+	font-family: Raleway-Medium;
+	font-size: 0.75em;
+	text-align: center;
+	color: #405952;
+}
+h3, input[type="text"], #programs, #submitButton, #databaseButton
+{
+	font-family: Raleway-Medium;
+}
+#check {
+	position: absolute;
+	bottom: 24px;
+	left: 18px;
+}
+#submitButton {
+	position: absolute;
+	bottom: 26px;
+	left: 59px;
+}
+#databaseButton {
+	position: absolute;
+	bottom: 26px;
+	left: 124px;
+}
+#sLogo {
+	position: absolute;
+	bottom: 38px;
+	right: 45px;
+}
+#back {
+	position: absolute;
+	transform: scaleX(-1);
+	top: 15px;
+	left: 17px;
+}
+.wrapper {
+	position: relative;
+	margin: auto;
+	width: 620px;
+	height: 365px;
+	background: #FFD393;
+	border: 10px solid #F54F29;
+}
+#courseTable {
+	position: absolute;
+	left: 8.5%;
+	top: 45%;
+	display: block;
+}
+.missing {
+	position: absolute;
+	font-family: Raleway-Medium;
+	font-size: 0.65em;
+	color: #F54F29;
+}
+#fnMissing {
+	top: 115px;
+	left: 60px;
+}
+#lnMissing {
+	top: 115px;
+	left: 219px;
+}
+#snMissing {
+	top: 176px;
+	left: 60px;
+}
+#prMissing {
+	top: 115px;
+	left: 60px;
+}
+#accountNotFound {
+	position: absolute;
+	top: 250px;
+	left: 60px;
+	font-size: 0.75em;
+}
+.wrapperDb {
+	position: relative;
+	margin: auto;
+	width: 620px;
+	background: #FFD393;
+	border: 10px solid #F54F29;
+}
+#footnote {
+	position: absolute;
+	bottom: -38px;
+	left: 0;
+	font-size: 0.75em;
+}
+#databaseTable {
+	table-layout: fixed;
+	color: #405952;
+	margin: 40px 0px 14px 14px;
+	border-collapse: collapse;
+	font-family: Raleway-Medium;
+}
+#databaseTable, th, #databaseTable td {
+	border: 3px solid #405952;
+	text-align: center;
+	padding: 4px;
+	word-wrap: break-word;
+}
+#databaseTable td {
+	border: 3px solid #9C9B7A;
+	font-size: 0.85em;
+}
+.dbStudentNumber, .dbName, .dbProgram, .dbCourse {
+	vertical-align: top; 
+}
+.dbStudentNumber {
+	min-width: 100px;
+	max-width: 100px;
+}
+.dbName {
+	min-width: 140px;
+	max-width: 140px;
+}
+.dbCourse {
+	min-width: 120px;
+	max-width: 120px;
+}
+.dbProgram {
+	min-width: 100px;
+	max-width: 100px;
+}
+.dbDelete {
+	min-width: 75px;
+	max-width: 75px;
+	vertical-align: middle;
+}
+.rButtons {
+	background: #9C9B7A;
+	font-family: Raleway-Medium;
+}
