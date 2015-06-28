@@ -1,6 +1,6 @@
 # SheridanProjects
 This repo holds a few of the final projects I did as a first year student at Sheridan. 
-\<showoff\>Each received the highest possible mark within each class they were written\</showoff\>
+\<showoff\>Each received the highest possible mark within their respective class\</showoff\>
 
 **PasswordManager** is a Java program in which one can manage a file that contains a user's usernames and password.
 It uses the Swing toolkit to create new usernames/passwords and encrypt/decrypt them. 
