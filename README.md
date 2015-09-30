@@ -22,3 +22,5 @@ repsective to that module. It stores these values in a MySQL database.
 
 To see the project in action, visit this link:
 http://mobile.sheridanc.on.ca/~rosenich/Project-WebProg
+
+Valid accounts to use with the above link are found here: https://github.com/nihk/SheridanProjects/blob/master/Project-WebProg/student_accounts.txt
