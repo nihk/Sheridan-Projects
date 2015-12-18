@@ -1,5 +1,5 @@
 # Sheridan-Projects
-This repo holds a few of the final projects I did as a first/second year student at Sheridan. 
+This repo holds a handful of the final projects I did as a first/second year student at Sheridan. 
 \<showoff\>Each received the highest possible mark within their respective class\</showoff\>
 
 **DatabaseProject** is the final assignment for the database class I took in which
