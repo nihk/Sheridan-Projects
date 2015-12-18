@@ -21,6 +21,14 @@ and show all records from a MySQL database using the JDBC driver.
 </div>
 <br>
 
+**NetworkingVLANs** is the final assignment for the Networking class I took in which we created a network
+topology, defined ip addresses based on a given subnet mask, and created VLANs through switch and router.
+
+<div align="center">
+   <img src="https://github.com/nihk/Sheridan-Projects/blob/master/NetworkingVLANs/screenshot.png">
+</div>
+<br>
+
 **PasswordManager** is a Java program in which one can manage a file that contains a user's usernames and password.
 It uses the Swing toolkit to create new usernames/passwords and encrypt/decrypt them. 
 This project was written for my Java 2 class to reflect an understanding of using a GUI in Java as
