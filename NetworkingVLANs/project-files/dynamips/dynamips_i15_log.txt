@@ -1,0 +1,38 @@
+Dec 01 17:41:08.097 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:08.103 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61327.
+Dec 01 17:41:08.247 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:08.265 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:08.277 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:08.279 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:08.297 HYPERVISOR: exec_cmd: vm create HostK 15 c3600 
+Dec 01 17:41:08.307 VM: VM HostK created.
+Dec 01 17:41:08.320 HYPERVISOR: exec_cmd: vm set_con_tcp_port HostK 2015 
+Dec 01 17:41:08.336 HYPERVISOR: exec_cmd: c3600 get_mac_addr HostK 
+Dec 01 17:41:08.350 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:41:08.364 HYPERVISOR: exec_cmd: vm slot_add_binding HostK 0 0 NM-1FE-TX 
+Dec 01 17:41:08.384 HYPERVISOR: exec_cmd: vm set_ios HostK C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:08.400 HYPERVISOR: exec_cmd: vm set_nvram HostK 256 
+Dec 01 17:41:08.414 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:41:08.432 HYPERVISOR: exec_cmd: vm set_idle_pc HostK 0x604a58bc 
+Dec 01 17:41:08.528 HYPERVISOR: exec_cmd: vm set_ram HostK 192 
+Dec 01 17:41:08.554 HYPERVISOR: exec_cmd: c3600 set_mac_addr HostK cc0f.1a70.0000 
+Dec 01 17:41:08.667 HYPERVISOR: exec_cmd: vm set_exec_area HostK 64 
+Dec 01 17:41:08.680 HYPERVISOR: exec_cmd: vm set_config HostK configs/i15_startup-config.cfg 
+Dec 01 17:41:09.098 HYPERVISOR: exec_cmd: vm set_ghost_status HostK 2 
+Dec 01 17:41:09.162 HYPERVISOR: exec_cmd: vm set_ghost_file HostK c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:11.906 HYPERVISOR: exec_cmd: nio create_udp udp-c0d5297c-0e9a-46c9-83d7-b30f77e74a8a 10029 127.0.0.1 10028 
+Dec 01 17:41:12.012 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HostK 0 0 udp-c0d5297c-0e9a-46c9-83d7-b30f77e74a8a 
+Dec 01 17:41:12.118 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:41:14.060 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:41:14.076 HYPERVISOR: exec_cmd: vm start HostK 
+Dec 01 17:44:06.389 HYPERVISOR: exec_cmd: vm extract_config HostK 
+Dec 01 17:47:06.158 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:47:06.173 HYPERVISOR: exec_cmd: vm stop HostK 
+Dec 01 17:47:06.584 VM: VM HostK shutdown.
+Dec 01 17:47:08.119 HYPERVISOR: exec_cmd: vm get_status HostK 
+Dec 01 17:47:08.155 HYPERVISOR: exec_cmd: vm extract_config HostK 
+Dec 01 17:47:08.285 HYPERVISOR: exec_cmd: vm delete HostK 
+Dec 01 17:47:08.285 VM: VM HostK destroyed.
+Dec 01 17:47:08.329 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.636 HYPERVISOR: Stopped.
+Dec 01 17:47:08.639 GENERAL: reset done.

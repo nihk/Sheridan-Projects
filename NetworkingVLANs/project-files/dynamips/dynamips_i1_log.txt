@@ -1,0 +1,50 @@
+Dec 01 17:41:04.481 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:04.488 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61294.
+Dec 01 17:41:04.674 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:04.675 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:04.676 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:05.053 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:05.054 HYPERVISOR: exec_cmd: vm create SwitchC 2 c3600 
+Dec 01 17:41:05.062 VM: VM SwitchC created.
+Dec 01 17:41:05.063 HYPERVISOR: exec_cmd: vm set_con_tcp_port SwitchC 2002 
+Dec 01 17:41:05.064 HYPERVISOR: exec_cmd: c3600 get_mac_addr SwitchC 
+Dec 01 17:41:05.065 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:05.066 HYPERVISOR: exec_cmd: vm slot_add_binding SwitchC 0 0 NM-16ESW 
+Dec 01 17:41:05.069 HYPERVISOR: exec_cmd: vm set_ios SwitchC C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:05.070 HYPERVISOR: exec_cmd: vm set_nvram SwitchC 256 
+Dec 01 17:41:05.071 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:05.072 HYPERVISOR: exec_cmd: vm set_idle_pc SwitchC 0x604a58bc 
+Dec 01 17:41:05.074 HYPERVISOR: exec_cmd: vm set_ram SwitchC 192 
+Dec 01 17:41:05.076 HYPERVISOR: exec_cmd: c3600 set_mac_addr SwitchC cc02.1cf0.0000 
+Dec 01 17:41:05.077 HYPERVISOR: exec_cmd: vm set_exec_area SwitchC 64 
+Dec 01 17:41:05.083 HYPERVISOR: exec_cmd: vm set_config SwitchC configs/i2_startup-config.cfg 
+Dec 01 17:41:06.482 HYPERVISOR: exec_cmd: vm set_ghost_status SwitchC 2 
+Dec 01 17:41:06.486 HYPERVISOR: exec_cmd: vm set_ghost_file SwitchC c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:09.158 HYPERVISOR: exec_cmd: nio create_udp udp-faa2a752-284d-4bfd-8dea-b672eb48994a 10005 127.0.0.1 10004 
+Dec 01 17:41:09.166 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchC 0 4 udp-faa2a752-284d-4bfd-8dea-b672eb48994a 
+Dec 01 17:41:09.415 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:09.632 HYPERVISOR: exec_cmd: nio create_udp udp-afa129bb-1c83-4204-a3a3-bc640b3d6308 10006 127.0.0.1 10007 
+Dec 01 17:41:09.639 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchC 0 3 udp-afa129bb-1c83-4204-a3a3-bc640b3d6308 
+Dec 01 17:41:09.749 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:10.084 HYPERVISOR: exec_cmd: nio create_udp udp-352d0b54-3d6f-47d9-ba49-8d5766da91d1 10014 127.0.0.1 10015 
+Dec 01 17:41:10.191 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchC 0 0 udp-352d0b54-3d6f-47d9-ba49-8d5766da91d1 
+Dec 01 17:41:10.306 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:10.474 HYPERVISOR: exec_cmd: nio create_udp udp-fa9dbe9a-5aca-403d-ac02-6dc6ca3be73d 10016 127.0.0.1 10017 
+Dec 01 17:41:10.635 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchC 0 1 udp-fa9dbe9a-5aca-403d-ac02-6dc6ca3be73d 
+Dec 01 17:41:10.712 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:10.876 HYPERVISOR: exec_cmd: nio create_udp udp-6be7aa95-1d9f-47dd-a402-9a8db7113a23 10018 127.0.0.1 10019 
+Dec 01 17:41:11.041 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchC 0 2 udp-6be7aa95-1d9f-47dd-a402-9a8db7113a23 
+Dec 01 17:41:11.117 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:20.803 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:41:20.804 HYPERVISOR: exec_cmd: vm start SwitchC 
+Dec 01 17:44:06.354 HYPERVISOR: exec_cmd: vm extract_config SwitchC 
+Dec 01 17:47:06.956 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:47:06.956 HYPERVISOR: exec_cmd: vm stop SwitchC 
+Dec 01 17:47:07.245 VM: VM SwitchC shutdown.
+Dec 01 17:47:08.122 HYPERVISOR: exec_cmd: vm get_status SwitchC 
+Dec 01 17:47:08.165 HYPERVISOR: exec_cmd: vm extract_config SwitchC 
+Dec 01 17:47:08.301 HYPERVISOR: exec_cmd: vm delete SwitchC 
+Dec 01 17:47:08.301 VM: VM SwitchC destroyed.
+Dec 01 17:47:08.342 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.360 HYPERVISOR: Stopped.
+Dec 01 17:47:08.360 GENERAL: reset done.

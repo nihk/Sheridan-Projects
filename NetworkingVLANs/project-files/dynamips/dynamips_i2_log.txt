@@ -1,0 +1,66 @@
+Dec 01 17:41:04.482 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:04.485 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61295.
+Dec 01 17:41:04.675 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:04.676 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:04.676 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:04.977 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:04.978 HYPERVISOR: exec_cmd: vm create SwitchB 1 c3600 
+Dec 01 17:41:04.982 VM: VM SwitchB created.
+Dec 01 17:41:04.983 HYPERVISOR: exec_cmd: vm set_con_tcp_port SwitchB 2001 
+Dec 01 17:41:04.983 HYPERVISOR: exec_cmd: c3600 get_mac_addr SwitchB 
+Dec 01 17:41:04.983 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:04.984 HYPERVISOR: exec_cmd: vm slot_add_binding SwitchB 0 0 NM-16ESW 
+Dec 01 17:41:04.985 HYPERVISOR: exec_cmd: vm set_ios SwitchB C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:04.986 HYPERVISOR: exec_cmd: vm set_nvram SwitchB 256 
+Dec 01 17:41:04.986 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:04.987 HYPERVISOR: exec_cmd: vm set_idle_pc SwitchB 0x604a58bc 
+Dec 01 17:41:04.987 HYPERVISOR: exec_cmd: vm set_ram SwitchB 192 
+Dec 01 17:41:04.988 HYPERVISOR: exec_cmd: c3600 set_mac_addr SwitchB cc01.0770.0000 
+Dec 01 17:41:04.989 HYPERVISOR: exec_cmd: vm set_exec_area SwitchB 64 
+Dec 01 17:41:04.991 HYPERVISOR: exec_cmd: vm set_config SwitchB configs/i1_startup-config.cfg 
+Dec 01 17:41:04.992 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Dec 01 17:41:04.996 VM: VM Ghost created.
+Dec 01 17:41:04.997 HYPERVISOR: exec_cmd: vm set_ios Ghost C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:04.998 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Dec 01 17:41:04.999 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:04.999 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Dec 01 17:41:05.000 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 01 17:41:05.001 HYPERVISOR: exec_cmd: vm start Ghost 
+Dec 01 17:41:05.697 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 01 17:41:05.698 HYPERVISOR: exec_cmd: vm stop Ghost 
+Dec 01 17:41:05.947 VM: VM Ghost shutdown.
+Dec 01 17:41:05.949 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Dec 01 17:41:05.949 VM: VM Ghost destroyed.
+Dec 01 17:41:05.965 HYPERVISOR: exec_cmd: vm set_ghost_status SwitchB 2 
+Dec 01 17:41:05.966 HYPERVISOR: exec_cmd: vm set_ghost_file SwitchB c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:08.610 HYPERVISOR: exec_cmd: nio create_udp udp-7d548543-4e3c-4f8d-9a8e-9ede876603f7 10000 127.0.0.1 10001 
+Dec 01 17:41:08.674 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 3 udp-7d548543-4e3c-4f8d-9a8e-9ede876603f7 
+Dec 01 17:41:08.774 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:08.940 HYPERVISOR: exec_cmd: nio create_udp udp-06bcb258-54a1-495d-9949-bda08676ce3a 10002 127.0.0.1 10003 
+Dec 01 17:41:09.102 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 5 udp-06bcb258-54a1-495d-9949-bda08676ce3a 
+Dec 01 17:41:09.164 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:09.413 HYPERVISOR: exec_cmd: nio create_udp udp-c39fe959-454c-4d4a-8422-f4ae74dafd67 10004 127.0.0.1 10005 
+Dec 01 17:41:09.478 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 4 udp-c39fe959-454c-4d4a-8422-f4ae74dafd67 
+Dec 01 17:41:09.636 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:09.747 HYPERVISOR: exec_cmd: nio create_udp udp-79f81d45-0624-4776-abc4-6f7f4c1b50b5 10008 127.0.0.1 10009 
+Dec 01 17:41:09.862 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 2 udp-79f81d45-0624-4776-abc4-6f7f4c1b50b5 
+Dec 01 17:41:10.030 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:10.190 HYPERVISOR: exec_cmd: nio create_udp udp-e28f2bcc-6a50-4832-9c20-8ac6a6cb80b0 10010 127.0.0.1 10011 
+Dec 01 17:41:10.254 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 1 udp-e28f2bcc-6a50-4832-9c20-8ac6a6cb80b0 
+Dec 01 17:41:10.363 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:10.633 HYPERVISOR: exec_cmd: nio create_udp udp-0b570464-efb7-4846-bf7a-e660b72c8782 10012 127.0.0.1 10013 
+Dec 01 17:41:10.711 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchB 0 0 udp-0b570464-efb7-4846-bf7a-e660b72c8782 
+Dec 01 17:41:10.771 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:25.624 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:41:25.625 HYPERVISOR: exec_cmd: vm start SwitchB 
+Dec 01 17:44:06.258 HYPERVISOR: exec_cmd: vm extract_config SwitchB 
+Dec 01 17:47:06.995 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:47:06.996 HYPERVISOR: exec_cmd: vm stop SwitchB 
+Dec 01 17:47:07.302 VM: VM SwitchB shutdown.
+Dec 01 17:47:08.116 HYPERVISOR: exec_cmd: vm get_status SwitchB 
+Dec 01 17:47:08.142 HYPERVISOR: exec_cmd: vm extract_config SwitchB 
+Dec 01 17:47:08.219 HYPERVISOR: exec_cmd: vm delete SwitchB 
+Dec 01 17:47:08.220 VM: VM SwitchB destroyed.
+Dec 01 17:47:08.318 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.585 HYPERVISOR: Stopped.
+Dec 01 17:47:08.586 GENERAL: reset done.

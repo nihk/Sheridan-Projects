@@ -1,0 +1,53 @@
+Dec 01 17:41:04.577 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:04.580 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61296.
+Dec 01 17:41:04.684 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:04.684 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:04.685 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:05.053 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:05.054 HYPERVISOR: exec_cmd: vm create SwitchA 3 c3600 
+Dec 01 17:41:05.061 VM: VM SwitchA created.
+Dec 01 17:41:05.062 HYPERVISOR: exec_cmd: vm set_con_tcp_port SwitchA 2003 
+Dec 01 17:41:05.064 HYPERVISOR: exec_cmd: c3600 get_mac_addr SwitchA 
+Dec 01 17:41:05.064 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:05.065 HYPERVISOR: exec_cmd: vm slot_add_binding SwitchA 0 0 NM-16ESW 
+Dec 01 17:41:05.067 HYPERVISOR: exec_cmd: vm set_ios SwitchA C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:05.069 HYPERVISOR: exec_cmd: vm set_nvram SwitchA 256 
+Dec 01 17:41:05.071 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:05.072 HYPERVISOR: exec_cmd: vm set_idle_pc SwitchA 0x604a58bc 
+Dec 01 17:41:05.073 HYPERVISOR: exec_cmd: vm set_ram SwitchA 192 
+Dec 01 17:41:05.074 HYPERVISOR: exec_cmd: c3600 set_mac_addr SwitchA cc03.1f50.0000 
+Dec 01 17:41:05.076 HYPERVISOR: exec_cmd: vm set_exec_area SwitchA 64 
+Dec 01 17:41:05.079 HYPERVISOR: exec_cmd: vm set_config SwitchA configs/i3_startup-config.cfg 
+Dec 01 17:41:06.053 HYPERVISOR: exec_cmd: vm set_ghost_status SwitchA 2 
+Dec 01 17:41:06.056 HYPERVISOR: exec_cmd: vm set_ghost_file SwitchA c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:08.665 HYPERVISOR: exec_cmd: nio create_udp udp-66ba27f9-111a-466a-a974-6eac51c08b77 10001 127.0.0.1 10000 
+Dec 01 17:41:08.675 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 3 udp-66ba27f9-111a-466a-a974-6eac51c08b77 
+Dec 01 17:41:08.775 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:09.474 HYPERVISOR: exec_cmd: nio create_udp udp-5d127471-0b35-43d1-afd1-9497f8fe1faf 10007 127.0.0.1 10006 
+Dec 01 17:41:09.634 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 4 udp-5d127471-0b35-43d1-afd1-9497f8fe1faf 
+Dec 01 17:41:09.641 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:10.929 HYPERVISOR: exec_cmd: nio create_udp udp-c9f5714c-9c0c-423b-8369-dabc75d9bcc5 10020 127.0.0.1 10021 
+Dec 01 17:41:11.099 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 0 udp-c9f5714c-9c0c-423b-8369-dabc75d9bcc5 
+Dec 01 17:41:11.119 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:11.412 HYPERVISOR: exec_cmd: nio create_udp udp-92545a7c-effd-40c9-accc-42d02dd6aa67 10022 127.0.0.1 10023 
+Dec 01 17:41:11.525 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 1 udp-92545a7c-effd-40c9-accc-42d02dd6aa67 
+Dec 01 17:41:11.580 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:11.685 HYPERVISOR: exec_cmd: nio create_udp udp-658ffa16-db9e-474a-8e5e-35922a3bb5bd 10024 127.0.0.1 10025 
+Dec 01 17:41:11.803 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 2 udp-658ffa16-db9e-474a-8e5e-35922a3bb5bd 
+Dec 01 17:41:12.010 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:12.117 HYPERVISOR: exec_cmd: nio create_udp udp-04c8959b-fe14-427d-b57c-6b6f268ee024 10026 127.0.0.1 10027 
+Dec 01 17:41:12.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SwitchA 0 5 udp-04c8959b-fe14-427d-b57c-6b6f268ee024 
+Dec 01 17:41:12.232 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:15.081 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:41:15.083 HYPERVISOR: exec_cmd: vm start SwitchA 
+Dec 01 17:44:06.338 HYPERVISOR: exec_cmd: vm extract_config SwitchA 
+Dec 01 17:47:06.911 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:47:06.912 HYPERVISOR: exec_cmd: vm stop SwitchA 
+Dec 01 17:47:07.242 VM: VM SwitchA shutdown.
+Dec 01 17:47:08.118 HYPERVISOR: exec_cmd: vm get_status SwitchA 
+Dec 01 17:47:08.149 HYPERVISOR: exec_cmd: vm extract_config SwitchA 
+Dec 01 17:47:08.240 HYPERVISOR: exec_cmd: vm delete SwitchA 
+Dec 01 17:47:08.240 VM: VM SwitchA destroyed.
+Dec 01 17:47:08.327 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.612 HYPERVISOR: Stopped.
+Dec 01 17:47:08.613 GENERAL: reset done.

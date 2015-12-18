@@ -1,0 +1,43 @@
+Dec 01 17:41:07.870 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:07.877 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61326.
+Dec 01 17:41:08.117 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:08.222 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:08.241 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:08.243 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:08.249 HYPERVISOR: exec_cmd: vm create RouterA 14 c3600 
+Dec 01 17:41:08.263 VM: VM RouterA created.
+Dec 01 17:41:08.275 HYPERVISOR: exec_cmd: vm set_con_tcp_port RouterA 2014 
+Dec 01 17:41:08.296 HYPERVISOR: exec_cmd: c3600 get_mac_addr RouterA 
+Dec 01 17:41:08.307 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:08.320 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 0 0 NM-1FE-TX 
+Dec 01 17:41:08.338 HYPERVISOR: exec_cmd: vm set_ios RouterA C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:08.351 HYPERVISOR: exec_cmd: vm set_nvram RouterA 256 
+Dec 01 17:41:08.365 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:08.385 HYPERVISOR: exec_cmd: vm set_idle_pc RouterA 0x604a58bc 
+Dec 01 17:41:08.401 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:08.415 HYPERVISOR: exec_cmd: vm slot_add_binding RouterA 1 0 NM-1FE-TX 
+Dec 01 17:41:08.433 HYPERVISOR: exec_cmd: vm set_ram RouterA 192 
+Dec 01 17:41:08.530 HYPERVISOR: exec_cmd: c3600 set_mac_addr RouterA cc0e.1514.0000 
+Dec 01 17:41:08.555 HYPERVISOR: exec_cmd: vm set_exec_area RouterA 64 
+Dec 01 17:41:08.671 HYPERVISOR: exec_cmd: vm set_config RouterA configs/i14_startup-config.cfg 
+Dec 01 17:41:08.772 HYPERVISOR: exec_cmd: vm set_ghost_status RouterA 2 
+Dec 01 17:41:08.778 HYPERVISOR: exec_cmd: vm set_ghost_file RouterA c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:11.577 HYPERVISOR: exec_cmd: nio create_udp udp-ef120282-6d64-4b1f-b8f2-c5208ee9e3ba 10027 127.0.0.1 10026 
+Dec 01 17:41:11.583 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RouterA 0 0 udp-ef120282-6d64-4b1f-b8f2-c5208ee9e3ba 
+Dec 01 17:41:11.745 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:12.008 HYPERVISOR: exec_cmd: nio create_udp udp-0f1b3e32-a348-4b7b-a216-fd0e46d205c6 10028 127.0.0.1 10029 
+Dec 01 17:41:12.014 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RouterA 1 0 udp-0f1b3e32-a348-4b7b-a216-fd0e46d205c6 
+Dec 01 17:41:12.120 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:14.062 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:41:14.079 HYPERVISOR: exec_cmd: vm start RouterA 
+Dec 01 17:44:06.421 HYPERVISOR: exec_cmd: vm extract_config RouterA 
+Dec 01 17:47:06.169 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:47:06.176 HYPERVISOR: exec_cmd: vm stop RouterA 
+Dec 01 17:47:06.681 VM: VM RouterA shutdown.
+Dec 01 17:47:08.115 HYPERVISOR: exec_cmd: vm get_status RouterA 
+Dec 01 17:47:08.139 HYPERVISOR: exec_cmd: vm extract_config RouterA 
+Dec 01 17:47:08.209 HYPERVISOR: exec_cmd: vm delete RouterA 
+Dec 01 17:47:08.209 VM: VM RouterA destroyed.
+Dec 01 17:47:08.315 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.758 HYPERVISOR: Stopped.
+Dec 01 17:47:08.758 GENERAL: reset done.

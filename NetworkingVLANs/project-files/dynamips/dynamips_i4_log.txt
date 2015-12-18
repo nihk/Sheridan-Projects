@@ -1,0 +1,38 @@
+Dec 01 17:41:04.494 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:04.498 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61297.
+Dec 01 17:41:04.715 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:04.716 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:04.716 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:05.053 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:05.054 HYPERVISOR: exec_cmd: vm create HostJ 4 c3600 
+Dec 01 17:41:05.062 VM: VM HostJ created.
+Dec 01 17:41:05.063 HYPERVISOR: exec_cmd: vm set_con_tcp_port HostJ 2004 
+Dec 01 17:41:05.064 HYPERVISOR: exec_cmd: c3600 get_mac_addr HostJ 
+Dec 01 17:41:05.065 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:41:05.066 HYPERVISOR: exec_cmd: vm slot_add_binding HostJ 0 0 NM-1FE-TX 
+Dec 01 17:41:05.068 HYPERVISOR: exec_cmd: vm set_ios HostJ C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:05.070 HYPERVISOR: exec_cmd: vm set_nvram HostJ 256 
+Dec 01 17:41:05.071 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:41:05.072 HYPERVISOR: exec_cmd: vm set_idle_pc HostJ 0x604a58bc 
+Dec 01 17:41:05.073 HYPERVISOR: exec_cmd: vm set_ram HostJ 192 
+Dec 01 17:41:05.075 HYPERVISOR: exec_cmd: c3600 set_mac_addr HostJ cc04.1760.0000 
+Dec 01 17:41:05.077 HYPERVISOR: exec_cmd: vm set_exec_area HostJ 64 
+Dec 01 17:41:05.081 HYPERVISOR: exec_cmd: vm set_config HostJ configs/i4_startup-config.cfg 
+Dec 01 17:41:06.262 HYPERVISOR: exec_cmd: vm set_ghost_status HostJ 2 
+Dec 01 17:41:06.265 HYPERVISOR: exec_cmd: vm set_ghost_file HostJ c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:08.834 HYPERVISOR: exec_cmd: nio create_udp udp-cea66a3a-5058-4692-adc3-2997753843ab 10003 127.0.0.1 10002 
+Dec 01 17:41:09.088 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HostJ 0 0 udp-cea66a3a-5058-4692-adc3-2997753843ab 
+Dec 01 17:41:09.160 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:41:14.900 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:41:14.974 HYPERVISOR: exec_cmd: vm start HostJ 
+Dec 01 17:44:06.241 HYPERVISOR: exec_cmd: vm extract_config HostJ 
+Dec 01 17:47:06.731 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:47:06.731 HYPERVISOR: exec_cmd: vm stop HostJ 
+Dec 01 17:47:07.071 VM: VM HostJ shutdown.
+Dec 01 17:47:08.120 HYPERVISOR: exec_cmd: vm get_status HostJ 
+Dec 01 17:47:08.158 HYPERVISOR: exec_cmd: vm extract_config HostJ 
+Dec 01 17:47:08.293 HYPERVISOR: exec_cmd: vm delete HostJ 
+Dec 01 17:47:08.293 VM: VM HostJ destroyed.
+Dec 01 17:47:08.332 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.590 HYPERVISOR: Stopped.
+Dec 01 17:47:08.590 GENERAL: reset done.

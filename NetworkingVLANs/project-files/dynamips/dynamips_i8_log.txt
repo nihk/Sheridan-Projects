@@ -1,0 +1,38 @@
+Dec 01 17:41:06.474 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:06.482 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61313.
+Dec 01 17:41:06.808 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:06.916 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:07.029 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:07.030 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:07.134 HYPERVISOR: exec_cmd: vm create HostG 8 c3600 
+Dec 01 17:41:07.146 VM: VM HostG created.
+Dec 01 17:41:07.258 HYPERVISOR: exec_cmd: vm set_con_tcp_port HostG 2008 
+Dec 01 17:41:07.264 HYPERVISOR: exec_cmd: c3600 get_mac_addr HostG 
+Dec 01 17:41:07.267 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:41:07.271 HYPERVISOR: exec_cmd: vm slot_add_binding HostG 0 0 NM-1FE-TX 
+Dec 01 17:41:07.278 HYPERVISOR: exec_cmd: vm set_ios HostG C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:07.286 HYPERVISOR: exec_cmd: vm set_nvram HostG 256 
+Dec 01 17:41:07.293 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:41:07.303 HYPERVISOR: exec_cmd: vm set_idle_pc HostG 0x604a58bc 
+Dec 01 17:41:07.310 HYPERVISOR: exec_cmd: vm set_ram HostG 192 
+Dec 01 17:41:07.318 HYPERVISOR: exec_cmd: c3600 set_mac_addr HostG cc08.0d7c.0000 
+Dec 01 17:41:07.422 HYPERVISOR: exec_cmd: vm set_exec_area HostG 64 
+Dec 01 17:41:07.537 HYPERVISOR: exec_cmd: vm set_config HostG configs/i8_startup-config.cfg 
+Dec 01 17:41:07.548 HYPERVISOR: exec_cmd: vm set_ghost_status HostG 2 
+Dec 01 17:41:07.554 HYPERVISOR: exec_cmd: vm set_ghost_file HostG c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:10.305 HYPERVISOR: exec_cmd: nio create_udp udp-a0e877bb-95b2-43b3-9a23-f063183f2b21 10015 127.0.0.1 10014 
+Dec 01 17:41:10.364 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HostG 0 0 udp-a0e877bb-95b2-43b3-9a23-f063183f2b21 
+Dec 01 17:41:10.582 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:41:14.651 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:41:14.656 HYPERVISOR: exec_cmd: vm start HostG 
+Dec 01 17:44:06.456 HYPERVISOR: exec_cmd: vm extract_config HostG 
+Dec 01 17:47:06.668 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:47:06.670 HYPERVISOR: exec_cmd: vm stop HostG 
+Dec 01 17:47:06.991 VM: VM HostG shutdown.
+Dec 01 17:47:08.115 HYPERVISOR: exec_cmd: vm get_status HostG 
+Dec 01 17:47:08.133 HYPERVISOR: exec_cmd: vm extract_config HostG 
+Dec 01 17:47:08.182 HYPERVISOR: exec_cmd: vm delete HostG 
+Dec 01 17:47:08.183 VM: VM HostG destroyed.
+Dec 01 17:47:08.312 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.614 HYPERVISOR: Stopped.
+Dec 01 17:47:08.614 GENERAL: reset done.

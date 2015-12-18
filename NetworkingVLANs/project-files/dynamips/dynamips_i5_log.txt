@@ -1,0 +1,38 @@
+Dec 01 17:41:04.937 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:04.940 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61298.
+Dec 01 17:41:05.189 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:05.190 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:05.191 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:05.192 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:05.193 HYPERVISOR: exec_cmd: vm create HostF 5 c3600 
+Dec 01 17:41:05.202 VM: VM HostF created.
+Dec 01 17:41:05.204 HYPERVISOR: exec_cmd: vm set_con_tcp_port HostF 2005 
+Dec 01 17:41:05.204 HYPERVISOR: exec_cmd: c3600 get_mac_addr HostF 
+Dec 01 17:41:05.205 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:41:05.206 HYPERVISOR: exec_cmd: vm slot_add_binding HostF 0 0 NM-1FE-TX 
+Dec 01 17:41:05.208 HYPERVISOR: exec_cmd: vm set_ios HostF C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:05.209 HYPERVISOR: exec_cmd: vm set_nvram HostF 256 
+Dec 01 17:41:05.211 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:41:05.211 HYPERVISOR: exec_cmd: vm set_idle_pc HostF 0x604a58bc 
+Dec 01 17:41:05.213 HYPERVISOR: exec_cmd: vm set_ram HostF 192 
+Dec 01 17:41:05.214 HYPERVISOR: exec_cmd: c3600 set_mac_addr HostF cc05.1fd4.0000 
+Dec 01 17:41:05.216 HYPERVISOR: exec_cmd: vm set_exec_area HostF 64 
+Dec 01 17:41:05.221 HYPERVISOR: exec_cmd: vm set_config HostF configs/i5_startup-config.cfg 
+Dec 01 17:41:06.695 HYPERVISOR: exec_cmd: vm set_ghost_status HostF 2 
+Dec 01 17:41:06.701 HYPERVISOR: exec_cmd: vm set_ghost_file HostF c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:09.529 HYPERVISOR: exec_cmd: nio create_udp udp-adb45d27-947b-444a-8fef-747fa1da407c 10009 127.0.0.1 10008 
+Dec 01 17:41:09.637 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HostF 0 0 udp-adb45d27-947b-444a-8fef-747fa1da407c 
+Dec 01 17:41:09.695 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:41:14.818 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:41:14.820 HYPERVISOR: exec_cmd: vm start HostF 
+Dec 01 17:44:06.305 HYPERVISOR: exec_cmd: vm extract_config HostF 
+Dec 01 17:47:06.730 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:47:06.731 HYPERVISOR: exec_cmd: vm stop HostF 
+Dec 01 17:47:07.060 VM: VM HostF shutdown.
+Dec 01 17:47:08.122 HYPERVISOR: exec_cmd: vm get_status HostF 
+Dec 01 17:47:08.162 HYPERVISOR: exec_cmd: vm extract_config HostF 
+Dec 01 17:47:08.298 HYPERVISOR: exec_cmd: vm delete HostF 
+Dec 01 17:47:08.298 VM: VM HostF destroyed.
+Dec 01 17:47:08.333 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.640 HYPERVISOR: Stopped.
+Dec 01 17:47:08.640 GENERAL: reset done.

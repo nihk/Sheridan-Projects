@@ -1,0 +1,38 @@
+Dec 01 17:41:07.624 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 01 17:41:07.629 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61324.
+Dec 01 17:41:08.118 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 17:41:08.222 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 01 17:41:08.242 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips 
+Dec 01 17:41:08.243 GENERAL: working_dir=C:\Users\Nick\Desktop\Sheridan\Data Network Design and Configuration - Routers and Switches\Assignment4\project-files\dynamips
+Dec 01 17:41:08.250 HYPERVISOR: exec_cmd: vm create HostC 13 c3600 
+Dec 01 17:41:08.263 VM: VM HostC created.
+Dec 01 17:41:08.276 HYPERVISOR: exec_cmd: vm set_con_tcp_port HostC 2013 
+Dec 01 17:41:08.296 HYPERVISOR: exec_cmd: c3600 get_mac_addr HostC 
+Dec 01 17:41:08.308 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:41:08.321 HYPERVISOR: exec_cmd: vm slot_add_binding HostC 0 0 NM-1FE-TX 
+Dec 01 17:41:08.340 HYPERVISOR: exec_cmd: vm set_ios HostC C:\Users\Nick\GNS3\images\IOS\c3640-is-mz.124-17.image 
+Dec 01 17:41:08.352 HYPERVISOR: exec_cmd: vm set_nvram HostC 256 
+Dec 01 17:41:08.366 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:41:08.385 HYPERVISOR: exec_cmd: vm set_idle_pc HostC 0x604a58bc 
+Dec 01 17:41:08.402 HYPERVISOR: exec_cmd: vm set_ram HostC 192 
+Dec 01 17:41:08.416 HYPERVISOR: exec_cmd: c3600 set_mac_addr HostC cc0d.1d84.0000 
+Dec 01 17:41:08.434 HYPERVISOR: exec_cmd: vm set_exec_area HostC 64 
+Dec 01 17:41:08.535 HYPERVISOR: exec_cmd: vm set_config HostC configs/i13_startup-config.cfg 
+Dec 01 17:41:08.557 HYPERVISOR: exec_cmd: vm set_ghost_status HostC 2 
+Dec 01 17:41:08.672 HYPERVISOR: exec_cmd: vm set_ghost_file HostC c3640-is-mz.124-17.image-192.ghost 
+Dec 01 17:41:11.522 HYPERVISOR: exec_cmd: nio create_udp udp-4074ff06-5c27-49d3-912e-3316a2ec103c 10025 127.0.0.1 10024 
+Dec 01 17:41:11.579 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HostC 0 0 udp-4074ff06-5c27-49d3-912e-3316a2ec103c 
+Dec 01 17:41:11.584 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:41:14.063 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:41:14.082 HYPERVISOR: exec_cmd: vm start HostC 
+Dec 01 17:44:06.474 HYPERVISOR: exec_cmd: vm extract_config HostC 
+Dec 01 17:47:06.171 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:47:06.176 HYPERVISOR: exec_cmd: vm stop HostC 
+Dec 01 17:47:06.598 VM: VM HostC shutdown.
+Dec 01 17:47:08.115 HYPERVISOR: exec_cmd: vm get_status HostC 
+Dec 01 17:47:08.135 HYPERVISOR: exec_cmd: vm extract_config HostC 
+Dec 01 17:47:08.201 HYPERVISOR: exec_cmd: vm delete HostC 
+Dec 01 17:47:08.201 VM: VM HostC destroyed.
+Dec 01 17:47:08.314 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 01 17:47:08.763 HYPERVISOR: Stopped.
+Dec 01 17:47:08.763 GENERAL: reset done.
