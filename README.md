@@ -23,6 +23,7 @@ and show all records from a MySQL database using the JDBC driver.
 
 **NetworkingVLANs** is the final assignment for the Networking class I took in which we created a network
 topology, defined IP addresses based on a given subnet mask, and created VLANs through switch and router configurations.
+This was done using the GNS3 emulator.
 
 <div align="center">
    <img src="https://github.com/nihk/Sheridan-Projects/blob/master/NetworkingVLANs/screenshot.png">
