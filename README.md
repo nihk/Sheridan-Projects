@@ -2,7 +2,7 @@
 This repo holds a few of the final projects I did as a first/second year student at Sheridan. 
 \<showoff\>Each received the highest possible mark within their respective class\</showoff\>
 
-**DatabaseProject** This is final assignment for the database class I took in which
+**DatabaseProject** is the final assignment for the database class I took in which
 we used MS SQL Server. The [Project_Instructions.doc](https://github.com/nihk/SheridanProjects/blob/master/DatabaseProject/Project_Instructions.doc) file outlined the steps necessary to complete it.
 I have included the most interesting aspects of the project in this repo, namely the EER Diagram and 
 SQL DDL/DML.
@@ -12,7 +12,7 @@ SQL DDL/DML.
 </div>
 <br>
 
-**Jbooks** This is final assignment for the JavaEE class I took in which we used Servlets, JSP (EL, JSTL), 
+**Jbooks** is the final assignment for the JavaEE class I took in which we used Servlets, JSP (EL, JSTL), 
 and the MVC design pattern. The app validates a user's login information and enables them to add to, search,
 and show all records from a MySQL database. 
 
