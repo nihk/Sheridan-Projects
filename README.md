@@ -22,7 +22,7 @@ and show all records from a MySQL database using the JDBC driver.
 <br>
 
 **NetworkingVLANs** is the final assignment for the Networking class I took in which we created a network
-topology, defined ip addresses based on a given subnet mask, and created VLANs through switch and router.
+topology, defined IP addresses based on a given subnet mask, and created VLANs through switch and router configurations.
 
 <div align="center">
    <img src="https://github.com/nihk/Sheridan-Projects/blob/master/NetworkingVLANs/screenshot.png">
