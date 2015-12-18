@@ -12,6 +12,15 @@ SQL DDL/DML.
 </div>
 <br>
 
+**Jbooks** This is final assignment for the JavaEE class I took in which we used Servlets, JSP (EL, JSTL), 
+and the MVC design pattern. The app validates a user's login information and enables them to add to, search,
+and show all records from a MySQL database. 
+
+<div align="center">
+   <img src="https://github.com/nihk/Sheridan-Projects/blob/master/Jbooks/books_screenshot.png">
+</div>
+<br>
+
 **PasswordManager** is a Java program in which one can manage a file that contains a user's usernames and password.
 It uses the Swing toolkit to create new usernames/passwords and encrypt/decrypt them. 
 This project was written for my Java 2 class to reflect an understanding of using a GUI in Java as
