@@ -1,6 +1,16 @@
 # SheridanProjects
-This repo holds a few of the final projects I did as a first year student at Sheridan. 
+This repo holds a few of the final projects I did as a first/second year student at Sheridan. 
 \<showoff\>Each received the highest possible mark within their respective class\</showoff\>
+
+**DatabaseProject** This is final assignment for the database class I took in which
+we used MS SQL Server. The [Project_Instructions.doc](https://github.com/nihk/SheridanProjects/blob/master/DatabaseProject/Project_Instructions.doc) file outlined the steps necessary to complete it.
+I have included the most interesting aspects of the project in this repo, namely the EER Diagram and 
+SQL DDL/DML.
+
+<div align="center">
+   <img src="https://github.com/nihk/SheridanProjects/blob/master/DatabaseProject/Entity%20Relationship%20Diagram.png">
+</div>
+<br>
 
 **PasswordManager** is a Java program in which one can manage a file that contains a user's usernames and password.
 It uses the Swing toolkit to create new usernames/passwords and encrypt/decrypt them. 
