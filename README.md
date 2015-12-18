@@ -14,7 +14,7 @@ SQL DDL/DML.
 
 **Jbooks** is the final assignment for the JavaEE class I took in which we used Servlets, JSP (EL, JSTL), 
 and the MVC design pattern. The app validates a user's login information and enables them to add to, search,
-and show all records from a MySQL database. 
+and show all records from a MySQL database using the JDBC driver. 
 
 <div align="center">
    <img src="https://github.com/nihk/Sheridan-Projects/blob/master/Jbooks/books_screenshot.png">
