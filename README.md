@@ -1,4 +1,4 @@
-# SheridanProjects
+# Sheridan-Projects
 This repo holds a few of the final projects I did as a first/second year student at Sheridan. 
 \<showoff\>Each received the highest possible mark within their respective class\</showoff\>
 
