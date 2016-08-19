@@ -2,6 +2,16 @@
 This repo holds a handful of the final projects I did as a first/second year student at Sheridan. 
 \<showoff\>Each received the highest possible mark within their respective class\</showoff\>
 
+**C-Phonebook** is the final project for a Data Structures & Algorithms class I took.
+The purpose was write a phonbook application that permitted insertion, deletion, searching,
+sorting, and file handling of phonebook records using a data structure of our choosing.
+I chose to implement a resizable array to satisfy this task.
+
+<div align="center">
+   <img src="https://github.com/nihk/Sheridan-Projects/blob/master/C-Phonebook/phonebook-ss.png">
+</div>
+<br>
+
 **DatabaseProject** is the final assignment for the database class I took in which
 we used MS SQL Server. The [Project_Instructions.doc](https://github.com/nihk/SheridanProjects/blob/master/DatabaseProject/Project_Instructions.doc) file outlined the steps necessary to complete it.
 I have included the most interesting aspects of the project in this repo, namely the EER Diagram and 
