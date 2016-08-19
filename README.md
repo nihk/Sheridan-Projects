@@ -12,6 +12,13 @@ I chose to implement a resizable array to satisfy this task.
 </div>
 <br>
 
+**JQM-Weather-App** is a mobile-first web application using jQuery, jQuery Mobile, Handlebars.js, Charts.js, geolocation, localStorage, and the openweathermap API to display current and future weather data. It permits searching by city name or choosing from a list of predefined cities parsed from a JSON file. [It can be found hosted at this address.](http://rosenich.dev.fast.sheridanc.on.ca/assignments/weather_app/)
+
+<div align="center">
+   <img src="https://github.com/nihk/Sheridan-Projects/blob/master/JQM-Weather-App/weather_app-ss.jpg">
+</div>
+<br>
+
 **DatabaseProject** is the final assignment for the database class I took in which
 we used MS SQL Server. The [Project_Instructions.doc](https://github.com/nihk/SheridanProjects/blob/master/DatabaseProject/Project_Instructions.doc) file outlined the steps necessary to complete it.
 I have included the most interesting aspects of the project in this repo, namely the EER Diagram and 
