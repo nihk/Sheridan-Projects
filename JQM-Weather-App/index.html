@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+</head>
+
+<body>
+    <div id="page1" data-role="page">
+        <div data-role="panel" id="panelLeft" data-position="left" data-display="slide">
+            <ul data-role="listview" id="cities">
+
+            </ul>
+        </div>
+        <div data-role="panel" id="panelRight" data-position="right" data-display="slide">
+            <input type="search" name="searchCity" id="searchCity" data-mini="true" />
+
+            <ul data-role="listview">
+                <br />
+                <li>Recent Searches:</li>
+            </ul>
+            <br /><br />
+            <ul data-role="listview" id="recentCitySearches">
+            </ul>
+        </div>
+        <div data-role="header">
+            <h1>Generic Weather App #65536</h1>
+            <a href="#panelLeft" data-transition="push" class="ui-btn ui-icon-navigation ui-btn-icon-left">Other cities</a>
+            <a href="#panelRight" data-transition="push" class="ui-btn ui-icon-search ui-btn-icon-right">Search for a city</a>
+        </div>
+        <div role="main" class="ui-content">
+            <div class="center">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <h3 id="location"></h3>
+                        <h1 id="temperature"></h1>
+                        <h4 id="weatherDesc"></h4>
+                        <img id="weatherIcon" />
+                    </div>
+                    <div class="ui-block-b" id="chartDiv">
+                        
+                    </div>
+                </div>
+                <hr />
+                <h2>3-day Forecast</h2>
+                <div id="forecast"></div>
+            </div>
+            <div data-role="footer">
+
+            </div>
+        </div>
+
+        <!--       Templates-->zz
+        <script id="citiesPanelContent" type="text/x-handlebars-template">
+            {{#each this.cities}}
+            <li id="{{this.id}}"><a href="#">{{this.name}}</a></li>
+            {{/each}}
+        </script>
+
+        <script id="forecasts" type="text/x-handlebars-template">
+            <table data-role="table" class="ui-responsive ">
+                <thead>
+                    <tr>
+                        {{#each this}}
+                        <td>
+                            <h3 id="forecastDate{{@index}}"></h3></td>
+                        {{/each}}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {{#each this}}
+                        <td>
+                            <h1>{{this.temp.day}} &deg;C</h1></td>
+                        {{/each}}
+                    </tr>
+                    <tr>
+                        {{#each this}}
+                        <td>
+                            <h4>{{this.weather.0.description}}</h4></td>
+                        {{/each}}
+                    </tr>
+                    <tr>
+                        {{#each this}}
+                        <td><img src="http://openweathermap.org/img/w/{{this.weather.0.icon}}.png" /></td>
+                        {{/each}}
+                    </tr>
+                </tbody>
+            </table>
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js">
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
+        <script src="resources/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

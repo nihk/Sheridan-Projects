@@ -1,0 +1,13 @@
+html {}
+
+.center {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 0 20px 0 20px;
+}
