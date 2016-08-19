@@ -12,6 +12,13 @@ I chose to implement a resizable array to satisfy this task.
 </div>
 <br>
 
+**C#-MovieWiki** is the final (group) project for a course that explored well-known .NET technologies. This project is a simple wiki-like ASP.NET web application which allows users to create, edit, delete, and search for movie-related articles. It uses a WCF service layer to handle all the MSSQL database connections, and jQuery/ASP web controls for the front-end.
+
+<div align="center">
+   <img src="https://github.com/nihk/Sheridan-Projects/blob/master/C%23-MovieWiki/moviewiki-ss.jpg">
+</div>
+<br>
+
 **JQM-Weather-App** is a mobile-first web application using jQuery, jQuery Mobile, Handlebars.js, Charts.js, geolocation, localStorage, and the openweathermap API to display current and future weather data. It permits searching by city name or choosing from a list of predefined cities parsed from a JSON file. [It can be found hosted at this address.](http://rosenich.dev.fast.sheridanc.on.ca/assignments/weather_app/)
 
 <div align="center">
