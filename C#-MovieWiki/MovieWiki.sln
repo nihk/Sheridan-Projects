@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieWiki", "MovieWiki\MovieWiki.csproj", "{55628E31-BE29-4609-B8A5-13DA1BF2B038}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2839115B-EA74-4919-8099-3E9EE8D72822} = {2839115B-EA74-4919-8099-3E9EE8D72822}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieWikiService", "MovieWikiService\MovieWikiService.csproj", "{2839115B-EA74-4919-8099-3E9EE8D72822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55628E31-BE29-4609-B8A5-13DA1BF2B038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55628E31-BE29-4609-B8A5-13DA1BF2B038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55628E31-BE29-4609-B8A5-13DA1BF2B038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55628E31-BE29-4609-B8A5-13DA1BF2B038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2839115B-EA74-4919-8099-3E9EE8D72822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839115B-EA74-4919-8099-3E9EE8D72822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839115B-EA74-4919-8099-3E9EE8D72822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839115B-EA74-4919-8099-3E9EE8D72822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

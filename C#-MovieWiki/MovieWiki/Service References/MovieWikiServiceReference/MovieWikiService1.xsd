@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="InsertWikiArticle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="articleType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="descriptionXml" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWikiArticleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertWikiArticleResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWikiArticleEditHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="aticleId" type="xs:int" />
+        <xs:element minOccurs="0" name="accountId" type="xs:int" />
+        <xs:element minOccurs="0" name="timestamp" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWikiArticleEditHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertWikiArticleEditHistoryResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUserAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUserAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertUserAccountResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWikiArticle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="articleId" type="xs:int" />
+        <xs:element minOccurs="0" name="descriptionXml" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWikiArticleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateWikiArticleResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteWikiArticle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="articleId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteWikiArticleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteWikiArticleResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllWikiArticles">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllWikiArticlesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAllWikiArticlesResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllWikiArticleEditHistories">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllWikiArticleEditHistoriesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAllWikiArticleEditHistoriesResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUserAccounts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUserAccountsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAllUserAccountsResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

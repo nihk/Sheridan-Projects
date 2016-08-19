@@ -1,0 +1,45 @@
+C:\Users\Nick\documents\visual studio 2013\Projects\MovieWiki\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Nick\documents\visual studio 2013\Projects\MovieWiki\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Nick\documents\visual studio 2013\Projects\MovieWiki\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Nick\documents\visual studio 2013\Projects\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Nick\documents\visual studio 2013\Projects\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.pdb
+C:\Users\Noe\Desktop\School Stuff\Semester 4\C#\Project\NEW\MovieWiki\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Noe\Desktop\School Stuff\Semester 4\C#\Project\NEW\MovieWiki\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Noe\Desktop\School Stuff\Semester 4\C#\Project\NEW\MovieWiki\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Noe\Desktop\School Stuff\Semester 4\C#\Project\NEW\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Noe\Desktop\School Stuff\Semester 4\C#\Project\NEW\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.pdb
+C:\Users\Nick\Desktop\MovieWiki - Peter sln Merged With Noe sln\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Nick\Desktop\MovieWiki - Peter sln Merged With Noe sln\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Nick\Desktop\MovieWiki - Peter sln Merged With Noe sln\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Nick\Desktop\MovieWiki - Peter sln Merged With Noe sln\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Nick\Desktop\MovieWiki - Peter sln Merged With Noe sln\MovieWikiService\obj\Debug\MovieWikiService.pdb
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\bin\MovieWikiService.dll.config
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\bin\MovieWikiService.dll
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\bin\MovieWikiService.pdb
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.csprojResolveAssemblyReference.cache
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.dll
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.pdb
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\bin\MovieWikiService.dll.config
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\bin\MovieWikiService.dll
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\bin\MovieWikiService.pdb
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\obj\Debug\MovieWikiService.csprojResolveAssemblyReference.cache
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\obj\Debug\MovieWikiService.dll
+F:\SHERIDAN COLLEGE\semester4\.NET & C#\project\MovieWikiProject\MovieWikiService\obj\Debug\MovieWikiService.pdb
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Nick\Desktop\MovieWiki\MovieWikiService\obj\Debug\MovieWikiService.pdb
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\obj\Debug\MovieWikiService.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Nick\Desktop\NEW - 8-12-2016\MovieWikiService\obj\Debug\MovieWikiService.pdb
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\bin\MovieWikiService.dll.config
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\bin\MovieWikiService.dll
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\bin\MovieWikiService.pdb
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\obj\Debug\MovieWikiService.csprojResolveAssemblyReference.cache
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\obj\Debug\MovieWikiService.dll
+C:\Users\Noe\Documents\Pelles C Projects\FinalProject\MovieWiki - 8-12-2016 - 6;44pm\MovieWikiService\obj\Debug\MovieWikiService.pdb

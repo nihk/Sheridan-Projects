@@ -1,0 +1,106 @@
+﻿/*Contributors: Lei Wang*/
+
+.contentLogin {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInSection {
+    width: 40%;
+}
+
+.loginTitle {
+    font-size: 24px;
+}
+
+#brandIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.navbar-brand {
+    padding: 6px;
+}
+
+#form1 {
+    overflow-x: hidden;
+}
+
+.title {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.titleSearch {
+    width: 1000px;
+}
+
+input#searchInput.form-control {
+    width: 450px;
+}
+
+.carousel-inner > .item > img {
+    margin: 1px auto;
+    opacity: 0.8;
+}
+
+
+#sliderSection {
+    width: 770px;
+    height: auto;
+}
+
+#slideShow {
+    margin-bottom: 50px;
+}
+
+.carousel-control {
+    opacity: 0.3;
+}
+
+.slideImg {
+    object-fit: cover;
+}
+
+#welcomeTitle {
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#chooseTemplate {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#chooseTitle {
+    margin-left: 20px;
+}
+
+.createArticleSection {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+button#showAccountInfo, button#showRecentModal {
+    color: #337ab7;
+}
+
+.createRadioBtn label{
+    margin-left: 10px;
+}
+
