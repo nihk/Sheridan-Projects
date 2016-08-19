@@ -12,7 +12,7 @@ I chose to implement a resizable array to satisfy this task.
 </div>
 <br>
 
-**C#-MovieWiki** is the final (group) project for a course that explored well-known .NET technologies. This project is a simple wiki-like ASP.NET web application which allows users to create, edit, delete, and search for movie-related articles. It uses a WCF service layer to handle all the MSSQL database connections, and jQuery/ASP web controls for the front-end.
+**C#-MovieWiki** is the final (group) project for a course that explored well-known .NET technologies. This project is a simple wiki-like ASP.NET web application which allows users to create, edit, delete, and search for movie-related articles. It uses a WCF service layer to handle all the MSSQL database connections, and jQuery/ASP web controls for the front-end. My contribution to this group project was the back-end C# code.
 
 <div align="center">
    <img src="https://github.com/nihk/Sheridan-Projects/blob/master/C%23-MovieWiki/moviewiki-ss.jpg">
