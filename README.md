@@ -18,7 +18,7 @@ I chose to implement a resizable array to satisfy this task.
 </div>
 <br>
 
-**JQM-Weather-App** is a mobile-first web application using jQuery, jQuery Mobile, Handlebars.js, Charts.js, geolocation, localStorage, and the openweathermap API to display current and future weather data. It permits searching by city name or choosing from a list of predefined cities parsed from a JSON file. [It can be found hosted at this address.](http://rosenich.dev.fast.sheridanc.on.ca/assignments/weather_app/)
+**JQM-Weather-App** is a web application using jQuery, jQuery Mobile, Handlebars.js, Charts.js, geolocation, localStorage, and the openweathermap API to display current and future weather data. It permits searching by city name or choosing from a list of predefined cities parsed from a JSON file. [It can be found hosted at this address.](http://rosenich.dev.fast.sheridanc.on.ca/assignments/weather_app/)
 
 <div align="center">
    <img src="https://github.com/nihk/Sheridan-Projects/blob/master/JQM-Weather-App/weather_app-ss.jpg">
