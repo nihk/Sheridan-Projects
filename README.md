@@ -1,6 +1,5 @@
 # Sheridan-Projects
-This repo holds a handful of the final projects I did as a first/second year student at Sheridan. 
-\<showoff\>Each received the highest possible mark within their respective class\</showoff\>
+This repo holds a handful of the final projects I did as a first/second year student at Sheridan. Each entry describes its purpose and technologies used
 
 **C-Phonebook** is the final project for a Data Structures & Algorithms class I took.
 The purpose was write a phonbook application that permitted insertion, deletion, searching,
